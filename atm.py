@@ -4,9 +4,9 @@ import string
 import os
 
 # creatinga lists of users, their PINs and bank statements
-users = ['user', 'user2', 'user3']
-pins = ['1234', '2222', '3333']
-amounts = [1000, 2000, 3000]
+users = ['user', 'shubham', 'user3']
+pins = ['1234', '2002', '3333']
+amounts = [150, 20000, 30050]
 count = 0
 # while loop checks existance of the enterd username
 while True:
@@ -47,7 +47,7 @@ while count < 3:
 				print('-----------')
 				print()
 
-		if user == 'user2':
+		if user == 'shubham':
 			if pin == pins[1]:
 				break
 			else:
